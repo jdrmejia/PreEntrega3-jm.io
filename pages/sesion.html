@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ya eres parte de un mundo sin limites, ingresa y ve por todo">
+    <meta name="keywords" content="HTML, ASP, JS, META, PALABRAS CLAVE, EJEMPLO">
+    <link rel="shortcut icon" href="../img/assets/icons/junta360-Logo-Favicon.ico" type="image/x-icon" />    
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Incio</title>
+
+    <!-- iconos para el <footer></footer> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegacion     -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-brand" href="#">
+                <img src="../img/junta360LogoCompleto.png" alt="Logo" width="130">
+            </div>
+            <div class="nav justify-content-center collapse navbar-collapse" id="opciones">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="../index.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./beneficios.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./jugar.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Jugar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./tienda.html" class="btn btn-outline-primary" role="button"
+                            aria-pressed="true">Tienda</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-item">
+                <a href="./sesion.html" class="btn btn-outline-danger active" role="button"
+                    aria-pressed="true">Inciar sesión</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+
+        <div class="container w-90 ">
+            <div class="row align-items-stretch">
+                <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+                    <img src="../img/portada.png" width="650" alt="portadaSesion">
+                </div>
+                <div class="col p-5">
+                    <h1 class="fw-bold text-center py-5 text-primary">Bienvenid@</h1>
+
+                    <!-- Login -->
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="emailInput" class="form-label"></label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="Correo electrónico">
+                        </div>
+                        <div class="mb-4">
+                            <label for="inputPass" class="form-label"></label>
+                            <input type="password" class="form-control" id="inputPass" placeholder="Contraseña">
+                        </div>
+                        <div class="mb-4 form-check">
+                            <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                            <input type="checkbox" name="connected" class="form-check-input">
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                        </div>
+
+                        <div class="my-3">
+                            <spam>No tienes cuenta? <a href="#"></a>Regístrate</spam> <br>
+                            <spam><a href="#"></a>Recuperar contraseña</spam>
+                        </div>
+                    </form>
+
+                    <!-- Login con redes sociales -->
+                    <div class="container w-100 my-5">
+                        <div class="row text-center">
+                            <div class="col-12">Iniciar Sesión</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block">
+                                            <img src="../img/fbIcon.png" width="30" alt="IconoFace">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center ">
+                                            Facebook
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-danger w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block">
+                                            <img src="../img/googleIcon.png" width="30" alt="IconoGoogle">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center ">
+                                            Google
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-dark pt-5 pb-4 bg-body-tertiary">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <img src="../img/junta360LogoCompleto.png" alt="Logo" width="130">                    
+                    <p>Aquí no hay límites</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h2 class="text mb-4 font-weight-bold text-primary">Acerca de Junta360</h2>
+                    
+                    <p><a href="#" class="text-dark">Términos y condiciones</a></p>
+                    <p><a href="#" class="text-dark">Política de privacidad</a></p>
+                    <p><a href="#" class="text-dark">Preguntas frecuentes</a></p>
+                    <p><a href="#" class="text-dark">Reglamento</a></p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h2 class="text mb-4 font-weight-bold text-primary">Contáctanos</h2>
+                    
+                    <p>
+                        <li class="fa-solid fa-house me-3"></li> Lima, Lima, Perú
+                    </p>
+                    <p>
+                        <li class="fa-solid fa-envelope me-3"></li>info@junta360.com
+                    </p>
+                    <p>
+                        <li class="fa-solid fa-phone me-3"></li>+51 999 999 999
+                    </p>
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">                    
+                    <img src="../img/LibroReclamaciones.png" alt="Logo" width="130">
+                    <p><a class="text-primary">Junta360 S.A.C.</a></p>
+                </div>               
+
+                <div class="text-center mb-2">
+                    <p>
+                        <i class="fa-regular fa-copyright"></i>
+                        <a href="#"><strong class="text-primary">Junta360 2023</strong></a>
+                    </p>
+                </div>
+
+                <div class="text-center">
+
+                    <ul class="list-unstyled <ul class=" list-inline">
+                        <a class="text-primary me-3">Síguenos en:</a>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/junta360"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/junta360/"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/@junta360"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- CDN de BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
